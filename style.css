@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-fundo: #004225;
+}
+
+span{
+    color: #000000;
+}
+
+body{
+    background-color:var(--cor-fundo) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.hora1{
+    margin-bottom: 0.5rem;
+}
+input{
+    box-sizing: border-box;
+    width: 6rem;
+    padding-left:1.2rem;
+}
+h1, label{
+    color:#000000;
+}
+
+h1{
+    font-size: 2rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+
+
+main{
+    width: 20rem;
+    height:22rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #ffffff; 
+    box-sizing: border-box;
+    
+}
+
+ button{
+    width: 100%;  
+    border: 0;  
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: #0B8F55;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section{
+    margin-top:2rem;
+}
+img{
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+h1{
+    padding-bottom: 2rem;
+
+}
+h3{
+    margin-bottom: 1.6rem; ;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+
+}
+
+label{
+    margin-right: 0.6rem;
+}
+
+.saida{
+    margin-right: 1.5rem;
+}
+
+footer{
+    margin-top:1.6rem ;
+    font-size: 0.8rem;
+}
+
+
+
+
+
